@@ -1,5 +1,5 @@
-import type { Cast as CastBasic } from '../Cast';
-import type { Crew as CrewBasic } from '../Crew';
+import type { Cast as CastBasic } from '../shared/Cast';
+import type { Crew as CrewBasic } from '../shared/Crew';
 
 interface Roles {
   credit_id?: string;
