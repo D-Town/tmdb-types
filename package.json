@@ -1,5 +1,5 @@
 {
-  "name": "tmdb-types",
+  "name": "@d-town/tmdb-types",
   "version": "1.0.0",
   "description": "These are the TypeScript Definitions for the API from [TMDB API v3](https://developers.themoviedb.org/3/getting-started/introduction)",
   "scripts": {
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/D-Town/tmdb-types#readme",
   "dependencies": {
     "@fltri/eslint-config": "1.1.4"
+  },
+  "devDependencies": {
+    "typescript": "4.9.5"
   }
 }
