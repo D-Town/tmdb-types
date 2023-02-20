@@ -1,4 +1,4 @@
-import type { Crew } from '../Crew';
+import type { Crew } from './../shared/Crew';
 
 interface Cast {
   adult?: boolean;

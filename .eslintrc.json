@@ -1,8 +1,11 @@
 {
+  "root": true,
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "@fltri"
   ],
   "rules": {
-    "@typescript-eslint/naming-convention": "off"
+    "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/no-unnecessary-condition": "off"
   }
 }

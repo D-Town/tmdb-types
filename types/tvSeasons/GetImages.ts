@@ -1,4 +1,4 @@
-import type { Posters } from '../Posters';
+import type { Posters } from './../shared/Posters';
 
 interface GetImages {
   id?: number;

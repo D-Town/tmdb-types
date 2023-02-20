@@ -1,4 +1,4 @@
-import type { Results } from '../Results';
+import type { Results } from './../shared/Results';
 
 interface GetVideos {
   id?: number;

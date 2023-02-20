@@ -2,7 +2,12 @@
   "name": "@d-town/tmdb-types",
   "version": "1.0.0",
   "description": "These are the TypeScript Definitions for the API from [TMDB API v3](https://developers.themoviedb.org/3/getting-started/introduction)",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib"],
   "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "prepublish": "npx rimraf ././lib && tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .ts --cache"
   },
@@ -15,16 +20,14 @@
     "themoviedb",
     "tmdb type"
   ],
-  "author": "Christian Ernst <ernstchristian@me.com>",
+  "author": "Christian Ernst",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/D-Town/tmdb-types/issues"
   },
   "homepage": "https://github.com/D-Town/tmdb-types#readme",
-  "dependencies": {
-    "@fltri/eslint-config": "1.1.4"
-  },
   "devDependencies": {
+    "@fltri/eslint-config": "1.1.4",
     "typescript": "4.9.5"
   }
 }
