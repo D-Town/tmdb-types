@@ -8,12 +8,6 @@ interface Results {
   rated?: Value | boolean;
 }
 
-interface GetAccountStates {
-  id?: number;
-  results?: Results[];
-
-}
-
 export {
-  GetAccountStates
+  Results
 };

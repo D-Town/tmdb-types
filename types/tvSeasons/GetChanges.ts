@@ -17,10 +17,6 @@ interface Value {
   episode_number?: number;
 }
 
-interface GetChanges {
-  changes: Changes[];
-}
-
 export {
-  GetChanges
+  Changes
 };

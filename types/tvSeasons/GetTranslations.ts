@@ -11,11 +11,6 @@ interface Translations {
   data?: Data;
 }
 
-interface GetTranslations {
-  id?: number;
-  translations?: Translations[];
-}
-
 export {
-  GetTranslations
+  Translations
 };

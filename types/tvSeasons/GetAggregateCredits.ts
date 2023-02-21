@@ -17,12 +17,6 @@ interface Cast extends CastBasic, Roles {}
 
 interface Crew extends CrewBasic, Jobs {}
 
-interface GetAggregateCredits {
-  cast?: Cast[];
-  crew?: Crew[];
-  id?: number;
-}
-
 export {
-  GetAggregateCredits
+  Cast, Crew
 };

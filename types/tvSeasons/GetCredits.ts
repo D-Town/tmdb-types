@@ -1,5 +1,3 @@
-import type { Crew } from './../shared/Crew';
-
 interface Cast {
   adult?: boolean;
   gender?: number | null;
@@ -14,12 +12,6 @@ interface Cast {
   order?: number;
 }
 
-interface GetCredits {
-  cast?: Cast[];
-  crew?: Crew[];
-  id?: number;
-}
-
 export {
-  GetCredits
+  Cast
 };
